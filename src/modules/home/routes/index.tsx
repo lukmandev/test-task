@@ -1,5 +1,6 @@
 import loadable from "@loadable/component";
 import { Route } from "react-router-dom";
+
 import { HomeRoutesEnum } from "./enum";
 
 const HomePage = loadable(() => import("../pages/home"));

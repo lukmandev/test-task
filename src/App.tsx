@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import { Routes } from "react-router-dom";
+
 import SpinLoader from "./components/SpinLoader";
 import homeRoutes from "./modules/home/routes";
 
